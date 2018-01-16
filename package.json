@@ -1,5 +1,5 @@
 {
-  "name": "prakhar-module",
+  "name": "csp",
   "version": "0.0.0",
   "description": "Modular starter project for Angular 2 (and beyond) with statically typed build and AoT compilation",
   "repository": {
@@ -9,10 +9,10 @@
     "build.dev": "gulp build.dev --color --env-config dev",
     "build.dev.watch": "gulp build.dev.watch --color",
     "build.e2e": "gulp build.e2e --color",
-    "build.module": "rollup -c rollup.config.js",
     "build.prod": "gulp build.prod --color --env-config prod --build-type prod",
     "build.prod.exp": "gulp build.prod.exp --color --env-config prod --build-type prod",
     "build.test": "gulp build.test --color",
+    "bundle": "rollup -c rollup.config.js",
     "test.watch": "gulp test.watch --color",
     "generate.manifest": "gulp generate.manifest --color",
     "e2e": "protractor",

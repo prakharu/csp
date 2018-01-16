@@ -1,7 +1,7 @@
 import { NgModule, } from '@angular/core';
 import { TestDirective } from './test.directive';
 import { TestService } from './test.service';
-import { TestComponent } from './testmodule.index';
+import { TestComponent } from './test.index';
 @NgModule({
     imports: [],
     exports: [TestDirective, TestComponent],
